@@ -1,0 +1,292 @@
+{
+  "model": "XGBoost",
+  "cv": "LOOCV",
+  "mae": 0.015662729740142822,
+  "rmse": 0.024045660916385315,
+  "r2": 0.9121439456939697,
+  "rf_mae": 0.013951167822791405,
+  "rf_rmse": 0.02701940134949145,
+  "rf_r2": 0.8890698609712212,
+  "predictions": [
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/30.5.jpg",
+      "temp": 30.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.21031999588012695,
+      "pred_dn_xgb": 0.19468292593955994,
+      "pred_dn_rf": 0.2032930017914623
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/30.jpg",
+      "temp": 30.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.21106000244617462,
+      "pred_dn_xgb": 0.1937926858663559,
+      "pred_dn_rf": 0.1995346186682582
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/31.5.jpg",
+      "temp": 31.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.20904000103473663,
+      "pred_dn_xgb": 0.1948571503162384,
+      "pred_dn_rf": 0.20790677260359128
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/31.jpg",
+      "temp": 31.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.20960000157356262,
+      "pred_dn_xgb": 0.19471539556980133,
+      "pred_dn_rf": 0.2087293412784735
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/32.5.jpg",
+      "temp": 32.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.20427000522613525,
+      "pred_dn_xgb": 0.1951349675655365,
+      "pred_dn_rf": 0.20375484573468566
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/32.jpg",
+      "temp": 32.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.20769000053405762,
+      "pred_dn_xgb": 0.19486504793167114,
+      "pred_dn_rf": 0.20603131575882436
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/33.5.jpg",
+      "temp": 33.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.1999099999666214,
+      "pred_dn_xgb": 0.1954723447561264,
+      "pred_dn_rf": 0.20040278486038246
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/33.jpg",
+      "temp": 33.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.20201000571250916,
+      "pred_dn_xgb": 0.19525262713432312,
+      "pred_dn_rf": 0.20149151281888286
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/34.5.jpg",
+      "temp": 34.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.19866999983787537,
+      "pred_dn_xgb": 0.195688396692276,
+      "pred_dn_rf": 0.19865840058152875
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/34.jpg",
+      "temp": 34.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.19957000017166138,
+      "pred_dn_xgb": 0.19553138315677643,
+      "pred_dn_rf": 0.19916743735224007
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/35.5.jpg",
+      "temp": 35.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.19589999318122864,
+      "pred_dn_xgb": 0.19264265894889832,
+      "pred_dn_rf": 0.19398054645458856
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/35.jpg",
+      "temp": 35.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.19774000346660614,
+      "pred_dn_xgb": 0.19593577086925507,
+      "pred_dn_rf": 0.1957109651466211
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/36.5.jpg",
+      "temp": 36.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.19267000257968903,
+      "pred_dn_xgb": 0.19273704290390015,
+      "pred_dn_rf": 0.18660328595091896
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/36.jpg",
+      "temp": 36.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.19381999969482422,
+      "pred_dn_xgb": 0.18747422099113464,
+      "pred_dn_rf": 0.19037889032491617
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/37.5.jpg",
+      "temp": 37.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.18908999860286713,
+      "pred_dn_xgb": 0.18822771310806274,
+      "pred_dn_rf": 0.18836371608823538
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/37.jpg",
+      "temp": 37.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.19083000719547272,
+      "pred_dn_xgb": 0.1900409758090973,
+      "pred_dn_rf": 0.1872535459945599
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/38.5.jpg",
+      "temp": 38.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.18533000349998474,
+      "pred_dn_xgb": 0.1845012605190277,
+      "pred_dn_rf": 0.18534020757426817
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/38.jpg",
+      "temp": 38.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.18730999529361725,
+      "pred_dn_xgb": 0.18988136947155,
+      "pred_dn_rf": 0.18830207356686393
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/39.5.jpg",
+      "temp": 39.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.1802700012922287,
+      "pred_dn_xgb": 0.18173739314079285,
+      "pred_dn_rf": 0.15882327305277189
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/39.jpg",
+      "temp": 39.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.18371999263763428,
+      "pred_dn_xgb": 0.18510250747203827,
+      "pred_dn_rf": 0.1787461649949352
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/40.jpg",
+      "temp": 40.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.16949999332427979,
+      "pred_dn_xgb": 0.08794859796762466,
+      "pred_dn_rf": 0.0862093988340348
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/43.5.jpg",
+      "temp": 43.5,
+      "material": "P100-7CB+",
+      "true_dn": 0.0,
+      "pred_dn_xgb": 0.032808080315589905,
+      "pred_dn_rf": 0.05813277473673224
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/P100-7CB+ Str +t3318/45.jpg",
+      "temp": 45.0,
+      "material": "P100-7CB+",
+      "true_dn": 0.0,
+      "pred_dn_xgb": 0.033497489988803864,
+      "pred_dn_rf": 0.054351149834692476
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/35.5-1.jpg",
+      "temp": 35.5,
+      "material": "5PCH",
+      "true_dn": 0.09708999842405319,
+      "pred_dn_xgb": 0.167169988155365,
+      "pred_dn_rf": 0.16423014128891134
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/40.5-1.jpg",
+      "temp": 40.5,
+      "material": "5PCH",
+      "true_dn": 0.08828999847173691,
+      "pred_dn_xgb": 0.13421621918678284,
+      "pred_dn_rf": 0.16595753257162874
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/43.0-1.jpg",
+      "temp": 43.0,
+      "material": "5PCH",
+      "true_dn": 0.08445999771356583,
+      "pred_dn_xgb": 0.09974046796560287,
+      "pred_dn_rf": 0.10503974637078743
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/45.5-1.jpg",
+      "temp": 45.5,
+      "material": "5PCH",
+      "true_dn": 0.07983999699354172,
+      "pred_dn_xgb": 0.09282589703798294,
+      "pred_dn_rf": 0.09237958796694874
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/48.5-1.jpg",
+      "temp": 48.5,
+      "material": "5PCH",
+      "true_dn": 0.07374999672174454,
+      "pred_dn_xgb": 0.08376945555210114,
+      "pred_dn_rf": 0.07689778870344162
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/50.5-1.jpg",
+      "temp": 50.5,
+      "material": "5PCH",
+      "true_dn": 0.06588999927043915,
+      "pred_dn_xgb": 0.07201435416936874,
+      "pred_dn_rf": 0.08245216316916049
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/52.5-1.jpg",
+      "temp": 52.5,
+      "material": "5PCH",
+      "true_dn": 0.048569999635219574,
+      "pred_dn_xgb": 0.032051533460617065,
+      "pred_dn_rf": 0.05229698882810771
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/53.5-1.jpg",
+      "temp": 53.5,
+      "material": "5PCH",
+      "true_dn": 0.012539999559521675,
+      "pred_dn_xgb": 0.02635977789759636,
+      "pred_dn_rf": 0.008886549845337868
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/54.0-1.jpg",
+      "temp": 54.0,
+      "material": "5PCH",
+      "true_dn": 0.0,
+      "pred_dn_xgb": 0.019894223660230637,
+      "pred_dn_rf": 0.004020849894732237
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/54.5.jpg",
+      "temp": 54.5,
+      "material": "5PCH",
+      "true_dn": 0.0,
+      "pred_dn_xgb": 0.019894223660230637,
+      "pred_dn_rf": 0.000861899983137846
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/55.0.jpg",
+      "temp": 55.0,
+      "material": "5PCH",
+      "true_dn": 0.0,
+      "pred_dn_xgb": 0.019894223660230637,
+      "pred_dn_rf": 0.006358799887821078
+    },
+    {
+      "image": "dataset/dataset_physics_SOP_liquid_crystal/for POM software/M7 - pure 5PCH/55.5.jpg",
+      "temp": 55.5,
+      "material": "5PCH",
+      "true_dn": 0.0,
+      "pred_dn_xgb": 0.028378408402204514,
+      "pred_dn_rf": 0.006919949874281883
+    }
+  ]
+}
