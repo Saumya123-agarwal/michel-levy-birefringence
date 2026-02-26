@@ -1,0 +1,46 @@
+# Default training configuration
+# Override via CLI args or by modifying this file
+
+# Dataset
+dataset:
+  csv: data/dataset_unified.csv
+  p100_thickness_um: 9.415
+  p100_order: 1
+  pch_thickness_um: 10.0
+  pch_order: 1
+
+# Model
+model:
+  backbone: efficientnet_b0  # options: efficientnet_b0, resnet18, mobilenetv3_small_100
+  pretrained: true
+  freeze_backbone_initially: true
+  unfreeze_n_layers: 2
+
+# Training
+training:
+  epochs: 60
+  warmup_epochs: 10  # Phase A: frozen backbone
+  batch_size: 16
+  learning_rate: 0.001
+  backbone_lr_factor: 0.1  # backbone LR = lr * this factor in Phase B
+  patience: 15
+
+# Data augmentation
+augmentation:
+  n_patches_train: 25
+  n_patches_val: 5
+  patch_size: 224
+  brightness_jitter: 0.05
+  contrast_jitter: 0.05
+  saturation_jitter: 0.03  # keep low - color IS the signal
+  hue_jitter: 0.01         # keep very low
+
+# Physics loss
+physics_loss:
+  alpha_nonneg: 1.0    # penalty for negative delta_n
+  alpha_monotonic: 0.05  # penalty for temperature monotonicity violation
+
+# Cross-validation
+cv:
+  mode: kfold  # options: kfold, loocv, none
+  n_folds: 5
